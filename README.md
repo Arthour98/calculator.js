@@ -1,0 +1,6 @@
+Here i pressent you a full function calculator tha performs mathematical tasks accoring to rule, the code is write with hmtl,css and javascript vanilla, to run this you gonna need to install node.js on your computer and open the file index with your browser , the details on the project you can find it inside the main.js file where the functionality of code 
+resides,its write in greek so ok iam gonna explain here what exactly i did !
+
+First of all i binded all the key that resides inside calculator design component to keyboard keys ,also they all work with click events so try it however you like it ! secondary i created the calculator function where all the computing logic is !
+I take the value from my input that is a string and push it to an array ,But i create a variable where i store the digits of numbers ultil it finds and operator(+,-,*,/)then it pushes that value to my array in first phase and second it pushes the operator 
+, at the end outside of iretating loop I push the the variable once again cause the digits in the right of last operator are still not inside my DESIRED array , after that i start looping for each operator starting from * to / and then to + and - so it follows the right mathematicals rules ( first division and multi ,then plus and mins )
